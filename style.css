@@ -58,3 +58,7 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+body > * {
+  padding: 0 7.5% 0 15%;
+}
