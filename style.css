@@ -2,4 +2,49 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: roboto;
+}
+
+.header,
+.footer {
+  background-color: #1f2937;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.ad-copy > p {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.ad-copy > button,
+.action,
+.action button {
+  background-color: #3882f6;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.info {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote > blockquote {
+  font-size: 36px;
+  font-weight: 400;
+  font-style: italic;
+  color: #1f2937;
 }
