@@ -48,3 +48,13 @@ h1 {
   font-style: italic;
   color: #1f2937;
 }
+
+/* 
+Structuring the Layout
+*/
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
