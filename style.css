@@ -76,7 +76,7 @@ body {
 }
 
 body > * {
-  padding: 0 9% 0 15%;
+  padding: 1.75em 9% 1.75em 15%;
 }
 
 /* .header > * {
@@ -107,3 +107,37 @@ nav {
   flex-grow: 0;
   margin: 10% 0;
 }
+
+.info {
+  text-align: center;
+  padding-top: 1.75em;
+  padding-bottom: 1.75em;
+}
+
+.info h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  margin-bottom: 1.5em;
+}
+
+.cards {
+  display: flex;
+  border: 1px solid teal;
+  justify-content: space-evenly;
+}
+.card {
+  border: 1px solid red;
+  flex-basis: 150px;
+}
+.card > figcaption {
+  font-size: 16px;
+}
+
+.card > img {
+  border: 5px solid #3882f6;
+  border-radius: 10px;
+}
+
+/* body > * {
+  border: 1px solid red;
+} */
