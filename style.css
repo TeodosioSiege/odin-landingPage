@@ -22,7 +22,7 @@ h1 {
 }
 
 .ad-copy > button,
-.action,
+.action-container,
 .action button {
   background-color: #3882f6;
 }
@@ -160,6 +160,32 @@ nav {
   line-height: 1.25;
 }
 
-/* body > * {
-  border: 1px solid red;
-} */
+.action {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.action-container {
+  display: flex;
+  padding: 3em 5em;
+  color: white;
+  justify-content: space-around;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.action-container > button {
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 0.5em 2.5em;
+  color: white;
+  font-size: 1em;
+}
+
+.action-copy {
+  line-height: 1.5;
+}
+
+.action-copy h3 {
+  font-size: 1.5em;
+}
