@@ -138,6 +138,28 @@ nav {
   border-radius: 10px;
 }
 
+.quote {
+  padding-top: 6em;
+  padding-bottom: 6em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.quote > * {
+  /* border: 1px solid red; */
+  width: 790px;
+}
+
+.quote > p {
+  text-align: right;
+  font-size: 1.5em;
+}
+
+.quote > blockquote {
+  font-weight: 100;
+  line-height: 1.25;
+}
+
 /* body > * {
   border: 1px solid red;
 } */
