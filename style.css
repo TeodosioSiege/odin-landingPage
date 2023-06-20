@@ -122,15 +122,15 @@ nav {
 
 .cards {
   display: flex;
-  border: 1px solid teal;
+  /* border: 1px solid teal; */
   justify-content: space-evenly;
 }
 .card {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   flex-basis: 150px;
 }
 .card > figcaption {
-  font-size: 16px;
+  font-size: 17px;
 }
 
 .card > img {
